@@ -1,0 +1,32 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+    <div class="row">
+                    <div class="top">
+                        <h3>ROseum</h3>
+                        <h5>Make your holiday more pleasant!</h5>
+                    </div>
+                </div>
+<div class="pick">
+  <div class="row">
+
+      <div class="col-lg-3 pick left" style="padding-top: 17px">
+        <h4>Pick:</h4>
+      </div>
+
+      <div class="col-lg-9 pick right up">
+        <nav>
+          <ul id="navigation">
+              <br>
+            <li><a href="museum.jsp">Tickets</a></li>
+<!--            <li><a href="#"></a></li>-->
+        </nav>
+      </div>
+      <div class="col-lg-9 pick right down" style="height: 22px">
+        <nav>
+          <ul id="navigation">
+            <li><a href="museum.jsp"></a></li>
+        </nav>
+      </div>
+
+    </div>
+  </div>

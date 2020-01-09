@@ -1,0 +1,15 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+  <div class="row">
+    <div class="navigation">
+      <nav>
+        <ul id="navigation">
+          <li><a href="index.jsp">Home</a></li>
+          <li><a href="login.jsp">Login</a></li>
+          <li><a href="#">About us!</a></li>
+          <li><a href="https://www.viamichelin.com/web/Maps?address=Bucure%C5%9Fti%20(Bucharest)%2C%20Romania">Map</a></li>
+          <li><a href="contact.jsp">Contact</a></li>
+          <li><a href="https://www.booking.com/index.ro.html">Hotels</a></li>
+      </nav>
+    </div>
+  </div>

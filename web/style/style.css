@@ -1,0 +1,126 @@
+
+body {
+    background-color:#f8eee7;
+}
+.container{
+    height: 300px;
+    width: 90%;
+}
+
+.top{
+    background-color:#49274a;
+    color: white;
+    padding: 20px 0 10px 40px;
+    margin-bottom: 10px;
+}
+.left{
+    background-color:#94618e;
+    text-align: center;
+    padding:10px 0 21px 0;
+}
+
+.right{
+    background-color:#94618e;
+    padding-top: 5px;
+}
+
+.navigation ul li, .pick ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left:20px;
+}
+
+.navigation {
+    text-align: right;
+    margin:0;
+    padding:10px;
+}
+.navigation li a {
+    color:black;
+}
+
+#navigation li a{
+    margin-top: 20px !important;
+}
+
+.pick li a {
+    color:#3c3c3c;
+}
+.bottom{
+    margin-top: 200px;
+    text-align: center;
+    background-color: #94618e;
+    padding: 20px;
+}
+
+.registerLeft{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f4decb;
+    padding-bottom: 126px;
+    padding-top: 40px;
+}
+.registerRight{
+    margin-top: 50px;
+    background-color: #f4decb;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    background-color: #94618e;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20%;
+
+}
+#register, #login, #contact {
+    background-color: #94618e;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top: 15px;
+}
+p{
+    color: #49274a;
+}
+
+hr{
+    border: 2px solid #f4decb;
+}
+#fb{ cursor: pointer;
+     border-radius: 20%;
+
+}
+
+.star{
+    color: goldenrod;
+    font-size: 2.0rem;
+    padding: 0 1rem; /* space out the stars */
+}
+.star::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+}
+.star.rated::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+}
+
+.stars{
+    counter-reset: rateme 0;
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+.star.rated{
+    counter-increment: rateme 1;
+}
+.stars::after{
+    content: counter(rateme) '/5';
+}
+
